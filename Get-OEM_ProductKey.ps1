@@ -1,0 +1,1 @@
+﻿ $productkey = Get-WmiObject -Query "select * from softwarelicensingservice"

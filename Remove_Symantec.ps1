@@ -1,0 +1,2 @@
+﻿$Anti_Virus = Read-Host -Prompt "What is the name of the Anti-Virus to Remove"
+#$Anti_Virus | ForEach-Object {Get-WmiObject -Class Win32_product -Filter "Name like '%$Anti_Virus%'" | ForEach-Object {$_.uninstall()} 

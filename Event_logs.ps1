@@ -1,0 +1,1 @@
+﻿Get-EventLog -LogName System -EntryType Error -new 3 

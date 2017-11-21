@@ -1,0 +1,2 @@
+﻿Set-Location -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+Get-ChildItem | Where-Object -Property Name -like *advanced* | Set-ItemProperty -Path .\Advanced -PSProperty ShowSuperHidden -Value 1
